@@ -1,9 +1,7 @@
-import GenerateInvoice.GenerateInvoice;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class InvoiceServiceTest {
-    GenerateInvoice gi = new GenerateInvoice();
     @Test
     public void givenDistanceAndTime_Should_ReturnTotalFare(){
         double tot_fare = 53;
